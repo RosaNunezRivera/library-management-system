@@ -1,17 +1,16 @@
-# Library Management System
+# Product Inventory Management Web Application using MVC
 
-The Library Management System is a console-based application implemented in C#, designed to manage a library catalog. It provides features such as add books into library catalog, generls and specifics views, searching, borrowing and returning books.  
+Model-View-Controller (MVC) web application using ASP.NET Core focused on product and inventory management. This application performs CRUD Operations for Products Create, Read, and Delete operations for products.
 
 ## Overview
 
-**Add Books:** Users can add new books to the library catalog, providing information such as identificaion number, title, author, publication year, and genre.
-**Viewing Books**: The application bring two views, the first option shows the entire catalog and the second shows the book of an specific genre. This view including the status of eeach book "Available" or "Borrow".
-**Search Functionality:** Users can search for books based on title, author, or ID. When the books is founded the application show the information of it.
-**Borrowing Books:** Users can register the borrowing of a book by entering its ID.
-**Returning Books:** Users can register the return of a borrowed book by entering its ID.
-**Pre-populated Library Catalog:** The application comes with a pre-populated library catalog containing books across different genres.
+**Create Prodict:** Users can add new products to the system, providing information such as name, description, price, and stock quantity.
+**Product Inventory Details**: The application bring a view with the list of products including all their information.
+**Delete:** Users can delete products thought the buttom display in the inventory view.
 
-![Console-Based Interface](image.png)
+![Product Inventory Management Web Application](image.png)
+
+![Create Product](image-1.png)
 
 ## How to run the application
 
@@ -23,16 +22,16 @@ The Library Management System is a console-based application implemented in C#, 
 1. Clone the repository to your local machine
 
 ```csharp
-git clone https://github.com/RosaNunezRivera/library-management-system.git
+git clone https://github.com/RosaNunezRivera/product-inventory-management-web-application-using-mvc
 ```
 
 2. Navigate to the project directory
 
 ```bash
-cd library-management-system
+cd cd product-inventory-management-web-application-using-mvc
 ```
 
-3. Build the project
+3. Compile the application
 
 ```bash
 dotnet build
@@ -41,9 +40,19 @@ dotnet build
 4. Run the application
 
 ```bash
-dotnet build
+dotnet run
 ```
 
-5. Follow the on-screen instructions to interact with the Library Management System.
+5. Click on the Create Product button to add new products, fill out the form, and click on the Register Product button.
 
-[Do click here to see GitHub repository](https://github.com/RosaNunezRivera/library-management-system)
+![Create product](image-2.png)
+
+![Fill form](image-3.png)
+
+6. Product Inventory Detail view shows all the products that have been registered in the system.
+![alt text](image-4.png)
+
+6. Use the Detele option to remove a product from the system, doing clicking on the bottom, the view is automatically updated with the products.
+![alt text](image-5.png)
+
+[Do click here to see the GitHub repository](https://github.com/RosaNunezRivera/product-inventory-management-web-application-using-mvc)
